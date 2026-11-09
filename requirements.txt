@@ -1,0 +1,21 @@
+# Final model: training, prediction and local verification.
+# Install a compatible, platform-appropriate torch/torchvision pair together.
+# Historical CUDA training: torch 2.11.0+cu130.
+# Verified local CPU environment: torch 2.14.1 / torchvision 0.29.1.
+# This dependency list is not an exact historical environment lock.
+torch
+torchvision
+numpy
+pandas
+Pillow
+
+# Progress displays in preserved experiment runners.
+tqdm
+
+# Analysis figures and scripts/build_project_report.py.
+matplotlib
+reportlab
+pypdf
+
+# Archived notebooks may additionally require scikit-learn, seaborn, wandb
+# and a notebook kernel. Kaggle/Colab/cloud-control tools are separate installs.

@@ -1,7 +1,37 @@
-/data
-/.venv
-__pycache__/
-.DS_Store
-/models/*.pth
-/models/*.pt
+# Private course data, checkpoints and temporary verification/rendering files.
+/data/
 /models/
+/tmp/
+*.pth
+*.pt
+*.ckpt
+
+# Local Python environments and caches.
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Credentials and local environment settings; keep shareable examples.
+.env
+.env.*
+!.env.example
+!.env.*.example
+kaggle.json
+/.kaggle/
+/.aws/
+/credentials/
+
+# Local experiment-service outputs.
+/wandb/
+/runs/
+
+# macOS metadata.
+.DS_Store
+
+# Keep source notebooks, configs, figures and the report PDF eligible for Git.
+# Ignoring a path does not remove files that were already tracked.
