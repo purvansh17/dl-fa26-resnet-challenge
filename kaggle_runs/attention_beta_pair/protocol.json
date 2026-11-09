@@ -1,0 +1,51 @@
+{
+  "parent_release": "attention_public0895",
+  "parent_source_sha256": "072c352ff9a5667f8c0e1061bf179ae578d8e0980f49e40dfcf48040b4e0a55e",
+  "arms": {
+    "half": {
+      "beta": 7.113176525649157,
+      "seed": 42,
+      "train": 45000,
+      "development": 5000,
+      "epochs": 200,
+      "parameters": 4298970,
+      "worker_sha256": "1ffd1cd87d73bf8ba9dd1439f5916585498a45461345c130d4db206e5f3ff2f4"
+    },
+    "double": {
+      "beta": 28.45270610259663,
+      "seed": 42,
+      "train": 45000,
+      "development": 5000,
+      "epochs": 200,
+      "parameters": 4298970,
+      "worker_sha256": "b53438ca6d9fe72724a3ae4dd44ccbfec0fbb05f4f6557a002d07baaf74560f1"
+    }
+  },
+  "unchanged_helper_definitions": [
+    "SEBlock",
+    "SEBasicBlock",
+    "SEResNet",
+    "normalize",
+    "random_crop_zero",
+    "equalize_batch_uint8",
+    "autoaugment_gpu_by_image",
+    "augment",
+    "cutmix",
+    "evaluate",
+    "set_epoch_seed",
+    "WideBlock",
+    "WideResNet",
+    "atomic_save",
+    "initialize",
+    "make_model",
+    "final_predictions",
+    "TeacherSEResNet",
+    "attention",
+    "capture",
+    "attention_loss"
+  ],
+  "execution": "Independent processes on separate T4s; 2 CPU threads each",
+  "hard_cap_seconds": 9000,
+  "no_hidden_inputs": true,
+  "no_automatic_export_or_submission": true
+}

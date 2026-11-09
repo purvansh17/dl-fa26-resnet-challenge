@@ -1,0 +1,20 @@
+{
+  "id": "purvansharora/nyu-attention-beta-pair-v1",
+  "title": "NYU Attention Beta Pair v1",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "purvansharora/nyu-resnet-team-research-checkpoints"
+  ],
+  "competition_sources": [
+    "cifar-10-res-net-architecture-challenge-dl"
+  ],
+  "kernel_sources": [
+    "purvansharora/nyu-resnet-private-training-cache",
+    "purvansharora/nyu-attention-candidate-v1"
+  ]
+}

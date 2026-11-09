@@ -1,0 +1,14 @@
+{
+  "half": {
+    "beta": 7.113176525649157,
+    "finite_combined_gradients": true,
+    "teacher_frozen": true,
+    "parameters": 4298970
+  },
+  "double": {
+    "beta": 28.45270610259663,
+    "finite_combined_gradients": true,
+    "teacher_frozen": true,
+    "parameters": 4298970
+  }
+}

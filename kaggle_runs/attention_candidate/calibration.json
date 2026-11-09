@@ -1,0 +1,166 @@
+{
+  "status": "complete",
+  "batches": [
+    {
+      "batch": 0,
+      "ce": 2.320415496826172,
+      "at": 0.007542361039668322,
+      "lam": 1.0,
+      "all_shared": {
+        "ce_norm": 0.5928739905357361,
+        "unweighted_at_norm": 0.015240464359521866,
+        "beta1000_ratio": 25.70607566833496,
+        "cosine": -0.01707046665251255
+      },
+      "groups": {
+        "conv1": {
+          "ce_norm": 0.05355469882488251,
+          "unweighted_at_norm": 0.005274062044918537,
+          "beta1000_ratio": 98.47991180419922,
+          "cosine": 0.10773450881242752
+        },
+        "group1": {
+          "ce_norm": 0.31424057483673096,
+          "unweighted_at_norm": 0.011364242061972618,
+          "beta1000_ratio": 36.164146423339844,
+          "cosine": -0.034787967801094055
+        },
+        "group2": {
+          "ce_norm": 0.2990255653858185,
+          "unweighted_at_norm": 0.007426999509334564,
+          "beta1000_ratio": 24.837339401245117,
+          "cosine": -0.031121261417865753
+        },
+        "group3": {
+          "ce_norm": 0.4005846083164215,
+          "unweighted_at_norm": 0.004488845355808735,
+          "beta1000_ratio": 11.20573616027832,
+          "cosine": 0.004824197851121426
+        }
+      }
+    },
+    {
+      "batch": 1,
+      "ce": 2.3178534507751465,
+      "at": 0.008919602259993553,
+      "lam": 0.8125,
+      "all_shared": {
+        "ce_norm": 0.3666568696498871,
+        "unweighted_at_norm": 0.015360264107584953,
+        "beta1000_ratio": 41.89274978637695,
+        "cosine": -0.0007954908069223166
+      },
+      "groups": {
+        "conv1": {
+          "ce_norm": 0.07537586987018585,
+          "unweighted_at_norm": 0.003913732245564461,
+          "beta1000_ratio": 51.922882080078125,
+          "cosine": 0.10540717095136642
+        },
+        "group1": {
+          "ce_norm": 0.21433918178081512,
+          "unweighted_at_norm": 0.011489852331578732,
+          "beta1000_ratio": 53.605934143066406,
+          "cosine": 0.01020515151321888
+        },
+        "group2": {
+          "ce_norm": 0.19219796359539032,
+          "unweighted_at_norm": 0.007977169007062912,
+          "beta1000_ratio": 41.50496292114258,
+          "cosine": -0.029597176238894463
+        },
+        "group3": {
+          "ce_norm": 0.21418312191963196,
+          "unweighted_at_norm": 0.00499684177339077,
+          "beta1000_ratio": 23.32976531982422,
+          "cosine": -0.014323513023555279
+        }
+      }
+    },
+    {
+      "batch": 2,
+      "ce": 2.316441535949707,
+      "at": 0.007487041410058737,
+      "lam": 1.0,
+      "all_shared": {
+        "ce_norm": 0.5450258851051331,
+        "unweighted_at_norm": 0.015478372573852539,
+        "beta1000_ratio": 28.399333953857422,
+        "cosine": -0.053217507898807526
+      },
+      "groups": {
+        "conv1": {
+          "ce_norm": 0.1145620122551918,
+          "unweighted_at_norm": 0.006254176143556833,
+          "beta1000_ratio": 54.59206008911133,
+          "cosine": -0.4145529568195343
+        },
+        "group1": {
+          "ce_norm": 0.2913208603858948,
+          "unweighted_at_norm": 0.011265376582741737,
+          "beta1000_ratio": 38.66999816894531,
+          "cosine": -0.03270614519715309
+        },
+        "group2": {
+          "ce_norm": 0.2739388942718506,
+          "unweighted_at_norm": 0.00738123944029212,
+          "beta1000_ratio": 26.944839477539062,
+          "cosine": -0.01345241628587246
+        },
+        "group3": {
+          "ce_norm": 0.35216236114501953,
+          "unweighted_at_norm": 0.004367369692772627,
+          "beta1000_ratio": 12.401579856872559,
+          "cosine": -0.011305578984320164
+        }
+      }
+    },
+    {
+      "batch": 3,
+      "ce": 2.321013927459717,
+      "at": 0.008966055698692799,
+      "lam": 0.625,
+      "all_shared": {
+        "ce_norm": 0.37694451212882996,
+        "unweighted_at_norm": 0.01612160913646221,
+        "beta1000_ratio": 42.76918411254883,
+        "cosine": 0.02007315866649151
+      },
+      "groups": {
+        "conv1": {
+          "ce_norm": 0.053060051053762436,
+          "unweighted_at_norm": 0.004030614160001278,
+          "beta1000_ratio": 75.9632568359375,
+          "cosine": -0.11211010068655014
+        },
+        "group1": {
+          "ce_norm": 0.2019922137260437,
+          "unweighted_at_norm": 0.011998786590993404,
+          "beta1000_ratio": 59.402225494384766,
+          "cosine": 0.015317442826926708
+        },
+        "group2": {
+          "ce_norm": 0.18774667382240295,
+          "unweighted_at_norm": 0.008457996882498264,
+          "beta1000_ratio": 45.050052642822266,
+          "cosine": 0.054168038070201874
+        },
+        "group3": {
+          "ce_norm": 0.2514400780200958,
+          "unweighted_at_norm": 0.005305835977196693,
+          "beta1000_ratio": 21.101791381835938,
+          "cosine": 0.01710442267358303
+        }
+      }
+    }
+  ],
+  "beta1000_median_gradient_ratio": 35.14604187011719,
+  "proposed_beta": 14.226353051298315,
+  "rule": "min(1000, 0.5 * median CE/AT norm via median AT/CE ratio)",
+  "precision": "FP32",
+  "training_samples_only": true,
+  "optimizer_updates": 0,
+  "teacher_sha256": "609fe3d18cda5e36e86025e6e46e17a23f169db017118f7b9b7a6125b88ec565",
+  "student_parameters": 4298970,
+  "limitation": "Initialization-only four-batch calibration; no accuracy evidence or long-term gradient guarantee"
+}
