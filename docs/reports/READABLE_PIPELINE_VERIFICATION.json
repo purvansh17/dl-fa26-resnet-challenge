@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "torch": "2.14.1",
+  "source_sha256": "b53438ca6d9fe72724a3ae4dd44ccbfec0fbb05f4f6557a002d07baaf74560f1",
+  "split_sha256": "a805b2cd9b1c8ff89972372ea90dafa82090c090c00eafcdbfc3a479a45d56cb",
+  "implementation_sha256": {
+    "src/__init__.py": "8216e069323511c82ade3c5fe37c8a3c3cfdaf42ae18884ff08a0a39bdf1f1b6",
+    "src/attention.py": "3c501065d6cb0ef341338675d32ea77d853ed2e101adcf2562ce0a4f533a495c",
+    "src/augmentation.py": "253ed704fb17e0ad2e40e9f0241b46483e9fdeb854d9540acb36d5429892bae0",
+    "src/data.py": "1983e84c0567b090c6f1fe91b926b34dcddb562687bee1cdbcc980f7c62e6c4f",
+    "src/model.py": "efb7dc1326d1ba16f97e3887227babb805a184e68189632c66f44fe1257e8730",
+    "src/predict.py": "b3561f2bd9985b21732cf79e341de1db2187c4f83f20d8ce729b83b349888ca6",
+    "src/train.py": "22740a674f30182661491cbf7e41c66f0f9231e21f3abe4f8630f050e3cef40a",
+    "src/train_resnet.py": "f553748e2bb0e885c467462afa5a9359bf5249e8072f3bf3317ba1491c32e08c",
+    "src/verify.py": "39f43e9c7ca0184a82777faada594bd3594fb311707aac476d217a3d136bf581"
+  },
+  "student_parameters": 4298970,
+  "teacher_parameters": 15904586,
+  "initialization_equal": true,
+  "augmentation_equal": true,
+  "cutmix_equal": true,
+  "classification_and_attention_loss_equal": true,
+  "all_student_gradients_equal": true,
+  "frozen_teacher_no_gradients": true,
+  "checkpoint_checks": [
+    {
+      "model": "original",
+      "checkpoint_sha256": "518035fc36286bd36901063100bfc4ac3853727364e6d03587ce92b0bbf6bd9e",
+      "sample_count": 16,
+      "max_absolute_logit_difference": 0.0,
+      "prediction_disagreements": 0
+    },
+    {
+      "model": "double",
+      "checkpoint_sha256": "26f3295e5d03b71b69b9ae4d874c7232713e68f710cbce1f7fe13f392d4994ab",
+      "sample_count": 16,
+      "max_absolute_logit_difference": 0.0,
+      "prediction_disagreements": 0
+    }
+  ],
+  "scope": "Same-runtime CPU FP32 parity on 16 allowed development images and two-image gradient check; not a full validation or CUDA training reproduction; no hidden access",
+  "raw_evidence": "data/readable_pipeline_verification.json"
+}
