@@ -3,6 +3,7 @@
 /models/
 /tmp/
 /working/
+/output/
 *.pth
 *.pt
 *.ckpt

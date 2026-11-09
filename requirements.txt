@@ -12,7 +12,7 @@ Pillow
 # Progress displays in preserved experiment runners.
 tqdm
 
-# Analysis figures and scripts/build_project_report.py.
+# Optional historical analysis and local report generation.
 matplotlib
 reportlab
 pypdf
