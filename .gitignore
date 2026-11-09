@@ -2,6 +2,7 @@
 /data/
 /models/
 /tmp/
+/working/
 *.pth
 *.pt
 *.ckpt
