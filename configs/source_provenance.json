@@ -1,0 +1,20 @@
+{
+  "source": "kaggle_runs/attention_beta_pair/worker_double.py",
+  "source_sha256": "b53438ca6d9fe72724a3ae4dd44ccbfec0fbb05f4f6557a002d07baaf74560f1",
+  "model_nodes": [
+    "SEBlock",
+    "SEBasicBlock",
+    "WideBlock",
+    "WideResNet",
+    "TeacherSEResNet",
+    "initialize"
+  ],
+  "augmentation_nodes": [
+    "normalize",
+    "random_crop_zero",
+    "equalize_batch_uint8",
+    "autoaugment_gpu_by_image",
+    "cutmix"
+  ],
+  "scope": "Extracted postcompetition for readability; historical snapshots preserved; no retraining claimed."
+}
