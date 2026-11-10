@@ -34,6 +34,7 @@ No external training data or externally pretrained weights were used for the fin
 | `configs/` | Original/double-strength recipes and source provenance |
 | `kaggle_runs/` | Preserved sources of executed experiments |
 | `notebooks/` | Teacher training and selected historical team baseline notebooks |
+| `notebooks/DL_resnet_ricardo.ipynb`, `notebooks/ricardo_experiments/` | Four-stage ResNet branch: notebook, ConvNeXt, degradation augmentation, attention-transfer distillation and the W&B plotting script for the report figures |
 | `docs/reports/` | Experiment results and verification summaries |
 
 `src/train.py` is the final attention-student trainer. `src/train_resnet.py` is an earlier SE-ResNet implementation, retained for historical experiments.
